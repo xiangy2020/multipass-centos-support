@@ -1,0 +1,50 @@
+# Temporary files
+*.log
+*.tmp
+/tmp/
+
+# Test artifacts
+/test_results/
+*.test.log
+
+# Downloaded images (太大,不提交)
+*.qcow2
+*.img
+*.iso
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python (如果有测试脚本用到)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+
+# WorkBuddy artifacts
+.workbuddy/
+
+# Multipass 整个源码目录 (保留关键改动文件的副本)
+/multipass/
+
+# 保留这些关键的改动文件副本
+!/multipass-patches/

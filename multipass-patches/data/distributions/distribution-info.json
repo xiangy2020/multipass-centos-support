@@ -1,0 +1,140 @@
+{
+    "CentOS-7": {
+        "aliases": "centos7, centos-7",
+        "items": {
+            "x86_64": {
+                "id": "sha256:centos7_x86_64",
+                "image_location": "https://cloud.centos.org/centos/7/images/CentOS-7-x86_64-GenericCloud.qcow2",
+                "size": 902889472,
+                "version": "2009"
+            }
+        },
+        "os": "CentOS",
+        "release": "7",
+        "release_codename": "Core",
+        "release_title": "7"
+    },
+    "CentOS-8": {
+        "aliases": "centos8, centos-8",
+        "items": {
+            "arm64": {
+                "id": "sha256:centos8_arm64",
+                "image_location": "https://cloud.centos.org/centos/8/aarch64/images/CentOS-8-GenericCloud-8.4.2105-20210603.0.aarch64.qcow2",
+                "size": 1244463104,
+                "version": "8.4.2105"
+            },
+            "x86_64": {
+                "id": "sha256:centos8_x86_64",
+                "image_location": "https://cloud.centos.org/centos/8/x86_64/images/CentOS-8-GenericCloud-8.4.2105-20210603.0.x86_64.qcow2",
+                "size": 1308393472,
+                "version": "8.4.2105"
+            }
+        },
+        "os": "CentOS",
+        "release": "8",
+        "release_codename": "",
+        "release_title": "8.4"
+    },
+    "CentOS-Stream-8": {
+        "aliases": "centos-stream-8, centos-stream8",
+        "items": {
+            "arm64": {
+                "id": "sha256:centos_stream8_arm64",
+                "image_location": "https://cloud.centos.org/centos/8-stream/aarch64/images/CentOS-Stream-GenericCloud-8-latest.aarch64.qcow2",
+                "size": 1853685760,
+                "version": "latest"
+            },
+            "x86_64": {
+                "id": "sha256:centos_stream8_x86_64",
+                "image_location": "https://cloud.centos.org/centos/8-stream/x86_64/images/CentOS-Stream-GenericCloud-8-latest.x86_64.qcow2",
+                "size": 1853685760,
+                "version": "latest"
+            }
+        },
+        "os": "CentOS",
+        "release": "8-stream",
+        "release_codename": "Stream 8",
+        "release_title": "8"
+    },
+    "CentOS-Stream-9": {
+        "aliases": "centos, centos-stream, centos9, centos-stream-9, centos-stream9",
+        "items": {
+            "arm64": {
+                "id": "sha256:centos_stream9_arm64",
+                "image_location": "https://cloud.centos.org/centos/9-stream/aarch64/images/CentOS-Stream-GenericCloud-9-latest.aarch64.qcow2",
+                "size": 1527644160,
+                "version": "latest"
+            },
+            "x86_64": {
+                "id": "sha256:centos_stream9_x86_64",
+                "image_location": "https://cloud.centos.org/centos/9-stream/x86_64/images/CentOS-Stream-GenericCloud-9-latest.x86_64.qcow2",
+                "size": 1527644160,
+                "version": "latest"
+            }
+        },
+        "os": "CentOS",
+        "release": "9-stream",
+        "release_codename": "Stream 9",
+        "release_title": "9"
+    },
+    "Debian": {
+        "aliases": "debian, trixie",
+        "items": {
+            "arm64": {
+                "id": "sha512:f0460932cd6992539c7c9142bb02a24af83243503bad0179b0813bd6269195785655348ea889daf5927f80853f63b3402a78176967854887dbca9da3859599a0",
+                "image_location": "https://cloud.debian.org/images/cloud/trixie/20260316-2418/debian-13-generic-arm64-20260316-2418.qcow2",
+                "size": 428867584,
+                "version": "20260316"
+            },
+            "power64le": {
+                "id": "sha512:1157254692e96bca96ba2287e49fb37294a40497a57672535ce6f8ef5a4b95a407a67d3209577abae30547e6cba47bb56b1483f5af5693f5019e661920f28290",
+                "image_location": "https://cloud.debian.org/images/cloud/trixie/20260316-2418/debian-13-generic-ppc64el-20260316-2418.qcow2",
+                "size": 393959936,
+                "version": "20260316"
+            },
+            "x86_64": {
+                "id": "sha512:c6523db54404e320ed30787038f155f649995392697fa2a41e49458d36e056fda020593a03cf910fa7bf93bd5c510b12d6e7c7bf7852a03ee3a64536fecf0127",
+                "image_location": "https://cloud.debian.org/images/cloud/trixie/20260316-2418/debian-13-generic-amd64-20260316-2418.qcow2",
+                "size": 432028672,
+                "version": "20260316"
+            }
+        },
+        "os": "Debian",
+        "release": "trixie",
+        "release_codename": "Trixie",
+        "release_title": "13"
+    },
+    "Fedora": {
+        "aliases": "fedora",
+        "items": {
+            "arm64": {
+                "id": "66031aea9ec61e6d0d5bba12b9454e80ca94e8a79c913d37ded4c60311705b8b",
+                "image_location": "https://dl.fedoraproject.org/pub/fedora/linux/releases/43/Cloud/aarch64/images/Fedora-Cloud-Base-Generic-43-1.6.aarch64.qcow2",
+                "size": 544997376,
+                "version": "20251023"
+            },
+            "power64le": {
+                "id": "50c51fb73f01722b737031c333e92c0fe5bd0c3760421fe104bd888941cd41bb",
+                "image_location": "https://dl.fedoraproject.org/pub/fedora-secondary/releases/43/Cloud/ppc64le/images/Fedora-Cloud-Base-Generic-43-1.6.ppc64le.qcow2",
+                "size": 555417600,
+                "version": "20251023"
+            },
+            "s390x": {
+                "id": "6aecf1806698a1aa15ba1c1a0fef2db41ae880a2ed9821308a1e2ab7b9165ccb",
+                "image_location": "https://dl.fedoraproject.org/pub/fedora-secondary/releases/43/Cloud/s390x/images/Fedora-Cloud-Base-Generic-43-1.6.s390x.qcow2",
+                "size": 539305472,
+                "version": "20251023"
+            },
+            "x86_64": {
+                "id": "846574c8a97cd2d8dc1f231062d73107cc85cbbbda56335e264a46e3a6c8ab2f",
+                "image_location": "https://dl.fedoraproject.org/pub/fedora/linux/releases/43/Cloud/x86_64/images/Fedora-Cloud-Base-Generic-43-1.6.x86_64.qcow2",
+                "size": 583335936,
+                "version": "20251023"
+            }
+        },
+        "os": "Fedora",
+        "release": "",
+        "release_codename": "43",
+        "release_title": "43"
+    }
+}
